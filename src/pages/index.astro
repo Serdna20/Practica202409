@@ -1,10 +1,32 @@
 ---
+import { Icon } from 'astro-icon/components';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Prueba.">
 	<main>
-		hola
+		<div class="flex justify-center items-center w-full h-[400px] bg-pink-300">No tengo imagen equis de</div>
+		<div class="flex justify-center w-full bg-gray-50">
+			<div class="flex justify-between items-center w-[70%]">
+				<div class="p-4 gap-1 text-gray-400 flex flex-col items-center">
+					<Icon class="size-10" name="mdi:money" />
+					<p>100% MONEY BACK GUARENTEE</p>
+					<p>Texto placeholder</p>
+				</div>
+				<div class="w-1 h-[70%] bg-gray-400"></div>
+				<div class="p-4 gap-1 text-gray-400 flex flex-col items-center">
+					<Icon class="size-10" name="mdi:car" />
+					<p>FREE SHIPPING ON ORDER OVER 500$</p>
+					<p>Texto placeholder</p>
+				</div>
+				<div class="w-1 h-[70%] bg-gray-400"></div>
+				<div class="p-4 gap-1 text-gray-400 flex flex-col items-center">
+					<Icon class="size-10" name="mdi:globe" />
+					<p>ONLINE SUPPORT 24/7</p>
+					<p>Texto placeholder</p>
+				</div>
+			</div>
+		</div>
 	</main>
 </Layout>
 
